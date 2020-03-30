@@ -44,14 +44,14 @@ int main() {
         printf("%d ", max_res[i]);
         
  
-    printf("\nThe Allocated Resource Table:\n");
+    printf("\nThe Allocated Resource Table is:\n");
     for (i = 0; i < p; i++) {
         for (j = 0; j < r; j++)
             printf("\t%d", curr[i][j]);
         printf("\n");
     }
  
-    printf("\nThe Maximum Claim Table:\n");
+    printf("\nThe Max Claim Table is:\n");
     for (i = 0; i < p; i++) {
         for (j = 0; j < r; j++)
             printf("\t%d", max_claim[i][j]);
