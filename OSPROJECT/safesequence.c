@@ -1,4 +1,5 @@
-#include <stdio.h> 
+#include<stdio.h> 
+#include<conio.h> 
 int main() 
 { 
 // P0, P1, P2, P3, P4 are the names of process here
@@ -45,12 +46,9 @@ f[i] = 1;
 } 
 } 
 } 
-
 printf("The SAFE Sequence is:\n"); 
 for (i = 0; i < n - 1; i++) 
 printf(" P%d ->", ans[i]); 
 printf(" P%d", ans[n - 1]); 
-
 return (0); 
 }
-
