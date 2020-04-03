@@ -89,7 +89,7 @@ int main() {
             }
         }
         if (!safe) {
-            printf("\nThe given system are in unsafe state.");
+            printf("\nThe given system is in unsafe state.");
             break;
         }
         if (safe)
